@@ -3,11 +3,11 @@
 ## Indice
 
 - Prerrequisitos
-- Git
-    - Descarga
-    - Instalación
-    - Configuración
-- Visual Studio Code
+- [Git](#git)
+    - [Descarga]
+    - [Instalación]
+    - [Configuración]
+- [Visual Studio Code](#visual-studio-code)
     - Descarga
     - Instalación
     - Uso
@@ -51,6 +51,8 @@ git config --global user.email "tu-correo@dominio.com"
     Se debe dejar el entrecomillado para ambos campos.
 
 ---
+
+### Visual Studio Code
 
 #### Instalación de VS Code
 
