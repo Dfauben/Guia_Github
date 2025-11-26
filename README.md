@@ -3,15 +3,14 @@
 ## Indice
 
 - Prerrequisitos
-- [Git](#git)
-    - [Descarga]
-    - [Instalación]
-    - [Configuración]
+- [Git, sistema de control de versiones](#git)
+    - Descarga
+    - Instalación
+    - Configuración
 - [Visual Studio Code](#visual-studio-code)
     - Descarga
     - Instalación
     - Uso
-- Consejos
 
 ---
 
@@ -22,17 +21,18 @@
 
 ---
 
-### Git 
+### <ins>Git (Sistema de control de versiones)</ins>
 
-#### Instalación de Git
-1) Descarga: entra en [git-scm.com/downloads](https://git-scm.com/downloads) y elige tu sistema operativo.
+##### [`Descargar Git`](https://git-scm.com/downloads)
+
+#### <ins>Instalación de Git</ins>
+
 2) Instalador (Windows): acepta opciones por defecto; si preguntas sobre el editor, puedes dejar “VS Code”.
 3) Comprobación: abre una terminal y ejecuta `git --version` para confirmar que quedó instalado.
 
-
     <img src="./src/img/01.png"   width="400"> 
 
-#### Configuración básica de Git
+#### <ins>Configuración básica de Git</ins>
 
 - Abre la consola de Git, busca 'Git Bash' y ejecutalo.
 
@@ -52,25 +52,23 @@ git config --global user.email "tu-correo@dominio.com"
 
 ---
 
-### Visual Studio Code
+### <ins>Visual Studio Code<ins>
 
-#### Instalación de VS Code
+##### [`Descargar Visual Studio Code`](https://code.visualstudio.com/)
 
-##### Descarga del Software
-[Link de Descarga (Visual Studio Code)](https://code.visualstudio.com/)
-
-##### Instalación del Software
+#### <ins>Instalación de VS Code</ins>
 1) Ejecuta el .exe (Windows) o el paquete adecuado (macOS/Linux) y acepta las opciones por defecto. Marca “Add to PATH” en Windows para usar `code` desde la terminal.
 
 3) Arranque: abre VS Code y confirma que la terminal integrada reconoce `git --version`.
 
     <img src="./src/img/02.png"   width="400">
 
-### Conectar VS Code con GitHub (desde la interfaz de VS Code)
+#### <ins>Conectar VS Code con GitHub (desde la interfaz de VS Code)<ins>
 1) Abre el panel de Control de Código Fuente (icono de ramas en la barra lateral).
 
-    <img src="./src/img/03.png"   width="400">
+
+    <img src="./src/img/03.png"   width="300">
+<br>
 
 2) Inicia sesión con GitHub usando la UI: botón “Sign in to GitHub”. Sigue el flujo del navegador y permite el inicio de sesión directo en VS Code.
 3) Verifica que en la esquina inferior izquierda aparece tu usuario de GitHub conectado.
-
